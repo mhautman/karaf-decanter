@@ -1,0 +1,32 @@
+// For other than Single, use : "localhost:6389", "localhost:6332", "localhost:6419" for example
+host=localhost:6379
+
+// Possible values : Single (default), Master_Slave, Sentinel and Cluster
+mode=Single
+
+// Redis map name
+map=Decanter
+
+/*
+ * For Master_Slave mode
+ */
+
+// (default : localhost:6379)
+masterAddress=localhost:6379
+
+// Possible values : RoundRobin (default) and Random
+loadBalancerType=RoundRobin
+
+/*
+ * For Sentinel mode
+ */
+
+// (default : myMaster)
+masterName= myMaster
+
+/*
+ * For Cluster mode
+ */
+
+// (default : 2000)
+scanInterval=2000
