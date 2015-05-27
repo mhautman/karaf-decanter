@@ -74,6 +74,12 @@ Alternatively you can install exactly the features you need.
 * decanter-appender-elasticsearch
   Appender that sends the collected data to a Elasticsearch database.
 
+* decanter-appender-jdbc
+  Appender that sends the collected data to a database through JDBC.
+
+* decanter-appender-redis
+  Appender that sends the collected data to Redis server(s).
+
 * elasticsearch
   Elasticsearch running inside Apache Karaf
 

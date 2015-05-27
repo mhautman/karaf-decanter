@@ -38,7 +38,6 @@
         <module>elasticsearch</module>
         <module>redis</module>
         <module>jdbc</module>
-        <module>redis</module>
         <!-- TODO add jdbc appender -->
         <!-- TODO jms/activemq appender -->
         <!-- TODO camel appender -->

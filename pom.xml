@@ -43,6 +43,7 @@
         <json-api.version>1.0</json-api.version>
         <glassfish-json.version>1.0.4</glassfish-json.version>
         <commons-jdbc.version>2.1</commons-jdbc.version>
+        <redis.version>1.2.1</redis.version>
     </properties>
 
     <modules>
@@ -251,6 +252,21 @@
             	<artifactId>javax.json-api</artifactId>
             	<version>${json-api.version}</version>
             </dependency>
+
+            <!-- REDIS -->
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson</artifactId>
+                <version>${redis.version}</version>
+            </dependency>
+
+            <!-- JDBC -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-dbcp2</artifactId>
+                <version>${commons-jdbc.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
